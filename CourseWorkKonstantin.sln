@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseWorkKonstantin.Server", "CourseWorkKonstantin.Server\CourseWorkKonstantin.Server.csproj", "{80AE5B08-D8EB-4309-B29B-DDB789094308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseWorkKonstantin.Server", "CourseWorkKonstantin.Server\CourseWorkKonstantin.Server.csproj", "{80AE5B08-D8EB-4309-B29B-DDB789094308}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "CourseWorkKonstantin.Client", "courseworkkonstantin.client\CourseWorkKonstantin.Client.esproj", "{BD73E5A9-EBE6-4355-91B9-DAB30B3E69D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseWorkKonstantin.Database", "CourseWorkKonstantin.Database\CourseWorkKonstantin.Database.csproj", "{766B509C-BF08-4943-8911-6FF3CD7064A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseWorkKonstantin.Core", "CourseWorkKonstantin.Core\CourseWorkKonstantin.Core.csproj", "{2289D6BD-DD35-4110-90D8-77D6CA87160B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{BD73E5A9-EBE6-4355-91B9-DAB30B3E69D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD73E5A9-EBE6-4355-91B9-DAB30B3E69D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD73E5A9-EBE6-4355-91B9-DAB30B3E69D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{766B509C-BF08-4943-8911-6FF3CD7064A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766B509C-BF08-4943-8911-6FF3CD7064A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766B509C-BF08-4943-8911-6FF3CD7064A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766B509C-BF08-4943-8911-6FF3CD7064A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2289D6BD-DD35-4110-90D8-77D6CA87160B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2289D6BD-DD35-4110-90D8-77D6CA87160B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2289D6BD-DD35-4110-90D8-77D6CA87160B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2289D6BD-DD35-4110-90D8-77D6CA87160B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
